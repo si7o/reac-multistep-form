@@ -1,0 +1,19 @@
+.search-bar{
+    text-align: center;
+
+    .MuiContainer-root{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        max-width: 1080px;
+    }    
+
+    .MuiLink-root{
+        padding-left: 1rem;
+        float: left;
+    }
+
+    .MuiInputBase-root {
+        background: #ffffff;
+    }
+
+}

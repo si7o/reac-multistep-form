@@ -1,0 +1,10 @@
+const TYPES = {
+    SAVE_STEP_1: 'SAVE_STEP_1',
+    SAVE_STEP_2: 'SAVE_STEP_2',
+    PREVIOUS_STEP: 'PREVIOUS_STEP',    
+    RESET: 'RESET',
+    SUBMIT: 'SUBMIT',
+    SUBMITTED: 'SUBMITTED',
+}
+
+export default TYPES

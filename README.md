@@ -1,3 +1,5 @@
+React Multi-step form using MaterialUI, Formik & Yup 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
