@@ -36,6 +36,9 @@ export const customTheme = createMuiTheme({
         grey: {
            main: "#D1D3D1",
         },
+        black: {
+           main: "#000000",
+        },
     },
     props: {
         MuiButton: {

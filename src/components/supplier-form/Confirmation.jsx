@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
 import { Grid, Button, Box, Paper } from '@material-ui/core'
 import Alert from '@material-ui/lab/Alert';
-import { SupplierFormContext } from '../../contexts/supplier-form/SupplierFormContext'
-import TYPES from '../../contexts/supplier-form/types'
+import { SupplierFormContext } from 'contexts/supplier-form/SupplierFormContext'
+import TYPES from 'contexts/supplier-form/types'
 
 export default function Confirmation() {
     const {store, dispatch} = useContext(SupplierFormContext)

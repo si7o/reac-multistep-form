@@ -1,6 +1,6 @@
 import React from 'react'
 
-import SearchBar from '../search-bar/SearchBar';
+import SearchBar from 'components/search-bar/SearchBar';
 import { AppBar, Typography} from '@material-ui/core';
 
 import './Header.scss'

@@ -3,9 +3,10 @@ import { Formik, Field, Form } from 'formik'
 import { TextField } from 'formik-material-ui'
 import * as Yup from 'yup'
 
-import { SupplierFormContext } from '../../contexts/supplier-form/SupplierFormContext'
-import TYPES from '../../contexts/supplier-form/types'
+import { SupplierFormContext } from 'contexts/supplier-form/SupplierFormContext'
+import TYPES from 'contexts/supplier-form/types'
 import { Grid, Button, Box } from '@material-ui/core'
+import CustomInputText from 'components/commons/forms/CustomInputText'
 
 export default function SupplierInfo() {
     const {store, dispatch} = useContext(SupplierFormContext)
@@ -35,7 +36,7 @@ export default function SupplierInfo() {
             <Form>
                 <Grid container spacing={3} justify="space-between">
                     <Grid item xs={12}>
-                        <Field component={TextField} name="name" label="Supplier Name" fullWidth={true}/>
+                        <CustomInputText name="name" label="Supplier Name" required/>
                     </Grid>
                     <Grid item xs={12}>
                         <Field component={TextField} name="country" label="Country" fullWidth={true}/>

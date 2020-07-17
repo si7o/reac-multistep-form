@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 
 import './SupplierForm.scss'
-import { SupplierFormContext } from '../../contexts/supplier-form/SupplierFormContext';
+import { SupplierFormContext } from 'contexts/supplier-form/SupplierFormContext';
 import SupplierInfo from './SupplierInfo';
 import SupplierCompany from './SupplierCompany';
 import Confirmation from './Confirmation';

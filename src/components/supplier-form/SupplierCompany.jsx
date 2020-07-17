@@ -3,8 +3,8 @@ import { Formik, Field, Form } from 'formik'
 import { TextField } from 'formik-material-ui'
 import * as Yup from 'yup'
 
-import { SupplierFormContext } from '../../contexts/supplier-form/SupplierFormContext'
-import TYPES from '../../contexts/supplier-form/types'
+import { SupplierFormContext } from 'contexts/supplier-form/SupplierFormContext'
+import TYPES from 'contexts/supplier-form/types'
 import { Grid, Button, Box, CircularProgress } from '@material-ui/core'
 
 export default function SupplierCompany() {
