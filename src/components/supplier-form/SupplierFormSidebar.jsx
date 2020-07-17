@@ -2,19 +2,11 @@ import React, { useContext } from 'react'
 
 import './SupplierForm.scss'
 import { SupplierFormContext } from 'contexts/supplier-form/SupplierFormContext';
-import { List, ListSubheader, ListItem, Box, Typography } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { List, ListSubheader, ListItem, Box } from '@material-ui/core';
 import DoneIcon from '@material-ui/icons/Done';
-
-const useStyles = makeStyles((theme) => ({
-    completed: {
-        color: theme.palette.success.main
-    }
-}))
 
 export default function SupplierFormSidebar() { 
     const {store} = useContext(SupplierFormContext)
-    const classes = useStyles()
 
     return (
         <Box className="sidebar">
