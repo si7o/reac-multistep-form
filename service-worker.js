@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-multistep-form/precache-manifest.1bc8275b7cd112d7b1aaac29ea4b5a04.js"
+  "/react-multistep-form/precache-manifest.4281c0a7c29e7a68ec19b58a9531d752.js"
 );
 
 self.addEventListener('message', (event) => {
