@@ -3,7 +3,7 @@ import SupplierForm from 'components/supplier-form'
 import { Box } from '@material-ui/core'
 import { SupplierFormContextProvider } from 'contexts/supplier-form/SupplierFormContext'
 import SupplierFormSidebar from 'components/supplier-form/SupplierFormSidebar'
-import SideBar from 'components/commons/side-bar/SideBar'
+import SideBar from 'components/commons/SideBar'
 
 export default function AddSupplier() {
     return (
